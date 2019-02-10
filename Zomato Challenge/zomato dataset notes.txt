@@ -1,0 +1,39 @@
+1. Whenever there is a Zomato event, the Rating is always equal to or above 2. Mostly it is above 3.x. Maybe we can work somethign out based on those, something like location based filtering perhaps.
+
+2. Wherever we have #89959B in column AH,AG the value value in AJ is:"This restaurant is newly opened. The rating will appear once the restaurant completes 60 days in operation." newly opened rests cant be excellent rated.
+
+3. Number of user ratings directly corresponds to popularity in a way.check hypothesis for 1000 user ratings. if rest has more ratings, it is difficult to maintain an excellent rating.
+
+4. Restaurants in the 3-4 price (AD) range have no ratings below 2.
+
+5. Column AE might be useless.
+
+6. Whenever there is an offer in AB the rating is at or above 3.3
+
+7. Z - book a table - at or above 3.3|||quandoo - 2.7||||sevenrooms - 3.6|||shawman (only 1) - 4.1|||zomato_book - 2.9
+
+8. Currency conversion, in column B.
+
+9. Column D and F, G, 1 to 1 match.
+
+Next Steps:
+1. Python Jupyer notebook, collect data in notebook, make a few changes (remove D and G for example)
+2. One hot encoding can be possible
+---------3. Column C,H mark 1 and 0 based on whetehr link is present
+---------4. Remove K, AC, AE.
+5. Decide if L, M, N, O is relevant 
+---------6. P to X are geographical features.
+7. All Medio providers "1" in Y are "OTHER" in Z.
+---------8. Column H and AF are the same.
+
+10. Is data augmentation allowed? probabaly can be used. the site says nothign about it.
+
+11. Word vectors and N grams. can we split text into n grams and then find correlation?
+
+12. Mark AL as 1s and 0s.
+
+Kaushik:
+Geographical feature (P to X)
+how is it used in Kaggle
+how are new feaures made
+
