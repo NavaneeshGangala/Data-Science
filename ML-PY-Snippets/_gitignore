@@ -1,0 +1,7 @@
+.ipynb_checkpoints/*.*
+ignore/*.*
+ignore*
+simple.dotfile
+simpletree.png
+kNN_test_train.csv
+Thumbs.db
