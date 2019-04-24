@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSCATALOGUE.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BOOKSCATALOGUE.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BookID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSCATALOGUE.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSCATALOGUE.csv" type="V_String" />
+            <Field name="SUBSTATE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSCATALOGUE.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BOOKSVISITHISTORY.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UserID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+            <Field name="BookID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+            <Field name="SESSIONID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+            <Field name="REFERRALID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+            <Field name="TIMESTAMP" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+            <Field name="BOOKPREVIEWED" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+            <Field name="SUBSCRIBED" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+            <Field name="WeekofYear" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSVISITHISTORY.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSPURCHHISTORY.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BOOKSPURCHHISTORY.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BookID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSPURCHHISTORY.csv" type="V_String" />
+            <Field name="UserID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSPURCHHISTORY.csv" type="V_String" />
+            <Field name="TIMESTAMP" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSPURCHHISTORY.csv" type="V_String" />
+            <Field name="SUBSTATE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSPURCHHISTORY.csv" type="V_String" />
+            <Field name="WeekofYear" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSPURCHHISTORY.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\USERMASTER.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>USERMASTER.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UserID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\USERMASTER.csv" type="V_String" />
+            <Field name="SIGNUPDATE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\USERMASTER.csv" type="V_String" />
+            <Field name="DELETED" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\USERMASTER.csv" type="V_String" />
+            <Field name="AGEGROUP" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\USERMASTER.csv" type="V_String" />
+            <Field name="GENDER" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\USERMASTER.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\USERMASTER.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BOOKSMASTERTRAIN.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BookID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="GENRE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="BOOKTITLE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="BOOKNAME" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="SERIES" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="AUTHOR" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="USERRATINGS" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="OTHERPRINTEDINFO" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="DETAILS" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="SUMMARY" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="GENRE2" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="AUTHORDESC" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="COVERPAGE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+            <Field name="Popularity" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTRAIN.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BOOKSMASTERTEST.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BookID" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="GENRE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="BOOKTITLE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="BOOKNAME" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="SERIES" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="AUTHOR" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="USERRATINGS" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="OTHERPRINTEDINFO" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="DETAILS" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="SUMMARY" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="GENRE2" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="AUTHORDESC" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="COVERPAGE" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+            <Field name="Popularity" size="254" source="File: C:\Users\ngangala\Documents\Bibliotheca-Book-Recommendation-System\Orginial Dataset\BOOKSMASTERTEST.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Book</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
