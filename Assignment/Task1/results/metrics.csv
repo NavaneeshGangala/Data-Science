@@ -1,0 +1,3 @@
+model,n_users_evaluated,precision@10,recall@10,ndcg@10,hit_rate@10,map@10,coverage,personalization,delta_vs_A
+A_popularity,600,0.01233,0.12333,0.06129,0.12333,0.04259,0.104,0.3949,
+B_hybrid,600,0.06067,0.60667,0.37926,0.60667,0.30901,0.996,0.97589,

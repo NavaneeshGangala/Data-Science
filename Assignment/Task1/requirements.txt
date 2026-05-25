@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Recommender backbones
+implicit>=0.7.2          # ALS / BPR matrix factorization (used in the hybrid solution)
+
+# Notebook tooling
+jupyter>=1.0
+ipykernel>=6.25
+nbformat>=5.9
+
+# Optional - only needed if you want to pull MovieLens from Kaggle directly
+# kaggle>=1.6
